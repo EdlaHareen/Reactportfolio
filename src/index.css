@@ -13,3 +13,30 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+.item-img{
+  height: 30vh
+}
+/* modal.css */
+
+.modal {
+  display: none; /* Hide the modal by default */
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  padding: 20px;
+  z-index: 1000;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.modal-content {
+  text-align: center;
+}
+
+/* Add other styles as needed */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;

@@ -1,0 +1,40 @@
+/* Testimonials.css */
+
+.testimonials-section {
+    position: relative;
+  }
+  
+  /* Style for the left arrow */
+  .flexslider .flex-direction-nav .flex-prev {
+    position: absolute;
+    left: -50px; /* Adjust the left position as needed */
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 55px; /* Adjust the font size as needed */
+    color: #ffffff; /* Arrow color */
+    padding: 5px; /* Adjust padding as needed */
+    border-radius: 50%; /* Make it a circle */
+    cursor: pointer; /* Show pointer cursor on hover */
+    transition: background-color 0.3s ease; /* Add transition effect */
+  }
+  
+  /* Style for the right arrow */
+  .flexslider .flex-direction-nav .flex-next {
+    position: absolute;
+    right: 150px; /* Adjust the right position as needed */
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 55px; /* Adjust the font size as needed */
+    color: #ffffff; /* Arrow color */
+    padding: 15px; /* Adjust padding as needed */
+    border-radius: 50%; /* Make it a circle */
+    cursor: pointer; /* Show pointer cursor on hover */
+    transition: background-color 0.3s ease; /* Add transition effect */
+  }
+  
+  /* Hover effect for the arrows */
+  .flexslider .flex-direction-nav .flex-prev:hover,
+  .flexslider .flex-direction-nav .flex-next:hover {
+    color: aqua;
+  }
+  
