@@ -28,7 +28,7 @@ export default class Testimonials extends Component {
           <div className="row">
             <div className="two columns header-col">
               <h1>
-                <span>More About ME</span>
+                <span style={{color:"black", zIndex:"999"}}>More About ME</span>
               </h1>
             </div>
             <div className="ten columns flex-container">

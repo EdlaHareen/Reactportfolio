@@ -21,7 +21,7 @@
   /* Style for the right arrow */
   .flexslider .flex-direction-nav .flex-next {
     position: absolute;
-    right: 150px; /* Adjust the right position as needed */
+    left: 100%; /* Adjust the right position as needed */
     top: 50%;
     transform: translateY(-50%);
     font-size: 55px; /* Adjust the font size as needed */
